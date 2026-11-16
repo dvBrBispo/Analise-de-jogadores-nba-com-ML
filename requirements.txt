@@ -1,0 +1,15 @@
+# Dependências para rodar ML_notebooks/a11.ipynb, a12.ipynb e a13.ipynb
+
+# Bibliotecas usadas nos notebooks
+numpy
+pandas
+matplotlib
+scikit-learn>=1.4   # root_mean_squared_error (a13) exige >= 1.4
+
+# Download do dataset housing.csv via "!gdown" (a11)
+gdown
+
+# Para executar os notebooks
+jupyter
+jupyterlab
+ipykernel
